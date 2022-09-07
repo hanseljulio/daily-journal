@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 
 const mongoose = require("mongoose");
-mongoose.connect("mongodb+srv://admin:test123@cluster0.vdtyytn.mongodb.net/blogDB", { useNewUrlParser: true });
+mongoose.connect("MONGODB SERVER - CONNECT TO APPLICATION IN MONGODB", { useNewUrlParser: true });
 
 const aboutMe = "https:\/\/hanseljulio.github.io/about.html"
 const homeStartingContent = "Welcome to my Daily Journal! This website was created using Node.js as its backend and uses MongoDB for its database. I created this website to learn how Node.js and MongoDB works, and I have to say I'm having a lot of fun! You can mess around by going to the \"Compose me\" page and write something.";
